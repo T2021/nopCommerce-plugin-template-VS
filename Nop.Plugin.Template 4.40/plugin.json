@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Custom Plugin",
+  "SystemName": "Widgets.CustomPlugin",
+  "Version": "1.40",
+  "SupportedVersions": [ "4.40" ],
+  "Author": "Ram Infosystems Limited",
+  "DisplayOrder": 1,
+  "FileName": "$safeprojectname$.dll",
+  "Description": "This plugin allows you to change the contents of main page slider"
+}
