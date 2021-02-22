@@ -11,7 +11,7 @@ using Nop.Web.Framework.Components;
 
 namespace $safeprojectname$.Components
 {
-    [ViewComponent(Name = "WidgetsNivoSlider")]
+    [ViewComponent(Name = "WidgetsCustomPlugin")]
     public class CustomPluginViewComponent : NopViewComponent
     {
         private readonly IStoreContext _storeContext;
@@ -71,7 +71,7 @@ namespace $safeprojectname$.Components
                 //no pictures uploaded
                 return Content("");
 
-            return View("~/Plugins/Widgets.NivoSlider/Views/PublicInfo.cshtml", model);
+            return View("~/Plugins/Widgets.CustomPlugin/Views/PublicInfo.cshtml", model);
         }
 
         protected async Task<string> GetPictureUrlAsync(int pictureId)

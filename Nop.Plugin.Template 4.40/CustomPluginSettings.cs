@@ -2,7 +2,7 @@
 
 namespace $safeprojectname$
 {
-    public class NivoSliderSettings : ISettings
+    public class CustomPluginSettings : ISettings
     {
         public int Picture1Id { get; set; }
         public string Text1 { get; set; }
